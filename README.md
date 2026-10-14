@@ -60,7 +60,8 @@ I moved the agency away from passive spreadsheet tracking to an active, integrat
 | Scheduling | Calendly | Strategy call bookings and reminder sequences |
  
 ![Figure 1: The centralized Airtable base serving as the Single Source of Truth for all creator management data](https://github.com/raaisurahman/CreatorFlow-Airtable-Ecosystem-Automation-Build/blob/main/airtable%20base%20blured.jpeg)
-![(https://github.com/raaisurahman/CreatorFlow-Airtable-Ecosystem-Automation-Build/blob/main/1234566.png)]
+![](https://github.com/raaisurahman/CreatorFlow-Airtable-Ecosystem-Automation-Build/blob/main/1234566.png)
+![](https://github.com/raaisurahman/CreatorFlow-Airtable-Ecosystem-Automation-Build/blob/main/make%20automation.png)
  
 * The centralized Airtable base serving as the Single Source of Truth for all creator management data*
  
@@ -79,7 +80,7 @@ The creator onboarding process was completely reimagined. Rather than scattered 
  
 ![Figure 2: View of the multi-step creator onboarding form and how it maps to the main Airtable base](https://github.com/raaisurahman/CreatorFlow-Airtable-Ecosystem-Automation-Build/blob/main/fillout%20form.png)
  
-*Figure 2: View of the multi-step creator onboarding form and how it maps to the main Airtable base*
+* View of the multi-step creator onboarding form and how it maps to the main Airtable base*
  
 ### 4.2 Proactive TikTok "Binding" Management
  
@@ -104,7 +105,7 @@ Previously, administrators manually posted in Discord, tagging 2,000 creators in
 4. **WhatsApp:** If the creator has a WhatsApp number on file, they receive the exact same voucher/offer via direct message instantly.
 ![Figure 3: The Airtable form used by admins to initiate automated voucher distribution](https://github.com/raaisurahman/CreatorFlow-Airtable-Ecosystem-Automation-Build/blob/main/discord%20voucher%20post%20form.png)
  
-*Figure 3: The Airtable form used by admins to initiate automated voucher distribution*
+* The Airtable form used by admins to initiate automated voucher distribution*
  
  
 ### 4.4 Appointment No-Show Prevention (Calendly)
@@ -116,9 +117,9 @@ To ensure strategy calls actually happen, I implemented a robust reminder sequen
 - **5 minutes before** the scheduled call
 This multi-channel, multi-touchpoint approach resulted in a drastic reduction in no-shows, ensuring that the agency's time investment in strategy calls produced actual conversations.
  
-![Figure 5: The Make.com scenario showing the webhook trigger routing data to Discord and WhatsApp APIs simultaneously](https://github.com/raaisurahman/CreatorFlow-Airtable-Ecosystem-Automation-Build/blob/main/discord%20voucher%20.png)(https://github.com/raaisurahman/CreatorFlow-Airtable-Ecosystem-Automation-Build/blob/main/123456.png)
+![Figure 5: The Make.com scenario showing the webhook trigger routing data to Discord and WhatsApp APIs simultaneously](https://github.com/raaisurahman/CreatorFlow-Airtable-Ecosystem-Automation-Build/blob/main/no%20show%20.png)
  
-*Figure 5: The Make.com scenario showing the webhook trigger routing data to Discord and WhatsApp APIs simultaneously*
+* The Make.com scenario showing the webhook trigger routing data to Discord and WhatsApp APIs simultaneously*
  
 ### 4.5 WhatsApp Group "Ice-Breaker" Automation
  
@@ -129,8 +130,8 @@ The agency creates a dedicated WhatsApp group for every creator to maintain clos
 3. This keeps the agency top-of-mind without any manual effort from the team.
 This automation runs via a combination of Airtable Scripting and Make.com, ensuring reliable execution at scale across hundreds of active groups.
 
-(https://github.com/raaisurahman/CreatorFlow-Airtable-Ecosystem-Automation-Build/blob/main/123.png)
-(https://github.com/raaisurahman/CreatorFlow-Airtable-Ecosystem-Automation-Build/blob/main/1234.png)
+![](https://github.com/raaisurahman/CreatorFlow-Airtable-Ecosystem-Automation-Build/blob/main/123.png)
+![](https://github.com/raaisurahman/CreatorFlow-Airtable-Ecosystem-Automation-Build/blob/main/1234.png)
  
 ---
  
@@ -148,7 +149,7 @@ Where native Airtable automations were insufficient for complex logic, I used Ja
  
 ![Figure 6: Airtable automation configuration showing webhook-triggered scripts for data integrity maintenance](https://github.com/raaisurahman/CreatorFlow-Airtable-Ecosystem-Automation-Build/blob/main/airtable%20automation.png)
  
-*Figure 6: Airtable automation configuration showing webhook-triggered scripts for data integrity maintenance*
+* Airtable automation configuration showing webhook-triggered scripts for data integrity maintenance*
  
 **Table 3: Cost Optimization Impact**
  
@@ -157,6 +158,8 @@ Where native Airtable automations were insufficient for complex logic, I used Ja
 | Data sync method | Polling every 15 min | Instant webhooks | Faster + fewer operations |
 | Complex logic location | External Make scenarios | Airtable Scripts | Reduced middleware costs |
 | Manual admin tasks | Hours per day | Fully automated | Near-zero labor cost |
+
+![](https://github.com/raaisurahman/CreatorFlow-Airtable-Ecosystem-Automation-Build/blob/main/12333.png)
  
 ---
  
