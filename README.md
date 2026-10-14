@@ -7,26 +7,8 @@
 **Category:** Social Media / Creator Economy
 **Date:** June 2026
  
----
- 
-## Contents
- 
-1. Executive Summary
-2. Problem Statement & Objectives
-   - 2.1 The Challenges
-   - 2.2 The Objectives
-3. The Solution: Technical Architecture
-4. Key Workflows & Automation Details
-   - 4.1 Advanced Onboarding & Data Integrity
-   - 4.2 Proactive TikTok Binding Management
-   - 4.3 Automated Voucher Distribution
-   - 4.4 Appointment No-Show Prevention
-   - 4.5 WhatsApp Group Ice-Breaker Automation
-5. Technical Efficiency & Cost Optimization
-6. The Results
----
- 
-## 1. Executive Summary
+
+## 1. Summary
  
 The client, a rapidly growing TikTok Creator Management Agency, was struggling to manage a community of over 2,000 creators using fragmented tools. They relied on a combination of Lark, Google Sheets, Discord, and WhatsApp. This patchwork approach caused severe data silos, significant manual administrative work, communication delays, and a complete lack of a unified overview of creator status.
  
@@ -77,7 +59,8 @@ I moved the agency away from passive spreadsheet tracking to an active, integrat
 | Communication | WhatsApp Cloud API, Discord API | Direct messaging, group automation, community posts |
 | Scheduling | Calendly | Strategy call bookings and reminder sequences |
  
-![Figure 1: The centralized Airtable base serving as the Single Source of Truth for all creator management data](images/figure-1.png)
+![Figure 1: The centralized Airtable base serving as the Single Source of Truth for all creator management data](https://github.com/raaisurahman/CreatorFlow-Airtable-Ecosystem-Automation-Build/blob/main/airtable%20base%20blured.jpeg)
+(https://github.com/raaisurahman/CreatorFlow-Airtable-Ecosystem-Automation-Build/blob/main/1234566.png)
  
 *Figure 1: The centralized Airtable base serving as the Single Source of Truth for all creator management data*
  
@@ -94,7 +77,7 @@ The creator onboarding process was completely reimagined. Rather than scattered 
 3. The "Data Integrity" automation activates to ensure data remains accurate over time.
 > **Data Integrity Innovation:** Creators frequently change their TikTok usernames, making traditional handle-based tracking unreliable. I built an automation that extracts the immutable numeric TikTok ID. This numeric ID is then used by a script to periodically check and update the current TikTok Username in Airtable automatically, ensuring records never go stale regardless of how often creators rebrand.
  
-![Figure 2: View of the multi-step creator onboarding form and how it maps to the main Airtable base](images/figure-2.png)
+![Figure 2: View of the multi-step creator onboarding form and how it maps to the main Airtable base](https://github.com/raaisurahman/CreatorFlow-Airtable-Ecosystem-Automation-Build/blob/main/fillout%20form.png)
  
 *Figure 2: View of the multi-step creator onboarding form and how it maps to the main Airtable base*
  
@@ -119,13 +102,10 @@ Previously, administrators manually posted in Discord, tagging 2,000 creators in
 2. Make.com processes this request via webhooks instantly.
 3. **Discord:** The system automatically posts to the Discord community, tagging each creator individually (not a blanket "@here" tag) to ensure visibility.
 4. **WhatsApp:** If the creator has a WhatsApp number on file, they receive the exact same voucher/offer via direct message instantly.
-![Figure 3: The Airtable form used by admins to initiate automated voucher distribution](images/figure-3.png)
+![Figure 3: The Airtable form used by admins to initiate automated voucher distribution](https://github.com/raaisurahman/CreatorFlow-Airtable-Ecosystem-Automation-Build/blob/main/discord%20voucher%20post%20form.png)
  
 *Figure 3: The Airtable form used by admins to initiate automated voucher distribution*
  
-![Figure 4: The resulting automated Discord post with individual creator tags](images/figure-4.png)
- 
-*Figure 4: The resulting automated Discord post with individual creator tags*
  
 ### 4.4 Appointment No-Show Prevention (Calendly)
  
@@ -136,7 +116,7 @@ To ensure strategy calls actually happen, I implemented a robust reminder sequen
 - **5 minutes before** the scheduled call
 This multi-channel, multi-touchpoint approach resulted in a drastic reduction in no-shows, ensuring that the agency's time investment in strategy calls produced actual conversations.
  
-![Figure 5: The Make.com scenario showing the webhook trigger routing data to Discord and WhatsApp APIs simultaneously](images/figure-5.png)
+![Figure 5: The Make.com scenario showing the webhook trigger routing data to Discord and WhatsApp APIs simultaneously](https://github.com/raaisurahman/CreatorFlow-Airtable-Ecosystem-Automation-Build/blob/main/discord%20voucher%20.png)(https://github.com/raaisurahman/CreatorFlow-Airtable-Ecosystem-Automation-Build/blob/main/123456.png)
  
 *Figure 5: The Make.com scenario showing the webhook trigger routing data to Discord and WhatsApp APIs simultaneously*
  
@@ -148,6 +128,9 @@ The agency creates a dedicated WhatsApp group for every creator to maintain clos
 2. If the creator has not sent a message in 72 hours, the system automatically sends a personalized "ice-breaker" message (for example: "Hey, just checking in, let us know if you need anything!").
 3. This keeps the agency top-of-mind without any manual effort from the team.
 This automation runs via a combination of Airtable Scripting and Make.com, ensuring reliable execution at scale across hundreds of active groups.
+
+(https://github.com/raaisurahman/CreatorFlow-Airtable-Ecosystem-Automation-Build/blob/main/123.png)
+(https://github.com/raaisurahman/CreatorFlow-Airtable-Ecosystem-Automation-Build/blob/main/1234.png)
  
 ---
  
@@ -163,7 +146,7 @@ Instead of using default Make.com modules that check for changes every 15 minute
  
 Where native Airtable automations were insufficient for complex logic, I used JavaScript via the Scripting extension inside Airtable. This reduced reliance on external Make.com scenarios, further saving money on intermediate software costs while keeping logic closer to the data.
  
-![Figure 6: Airtable automation configuration showing webhook-triggered scripts for data integrity maintenance](images/figure-6.png)
+![Figure 6: Airtable automation configuration showing webhook-triggered scripts for data integrity maintenance](https://github.com/raaisurahman/CreatorFlow-Airtable-Ecosystem-Automation-Build/blob/main/airtable%20automation.png)
  
 *Figure 6: Airtable automation configuration showing webhook-triggered scripts for data integrity maintenance*
  
