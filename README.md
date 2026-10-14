@@ -60,9 +60,9 @@ I moved the agency away from passive spreadsheet tracking to an active, integrat
 | Scheduling | Calendly | Strategy call bookings and reminder sequences |
  
 ![Figure 1: The centralized Airtable base serving as the Single Source of Truth for all creator management data](https://github.com/raaisurahman/CreatorFlow-Airtable-Ecosystem-Automation-Build/blob/main/airtable%20base%20blured.jpeg)
-(https://github.com/raaisurahman/CreatorFlow-Airtable-Ecosystem-Automation-Build/blob/main/1234566.png)
+![(https://github.com/raaisurahman/CreatorFlow-Airtable-Ecosystem-Automation-Build/blob/main/1234566.png)]
  
-*Figure 1: The centralized Airtable base serving as the Single Source of Truth for all creator management data*
+* The centralized Airtable base serving as the Single Source of Truth for all creator management data*
  
 ---
  
