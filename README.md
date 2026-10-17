@@ -106,6 +106,11 @@ Previously, administrators manually posted in Discord, tagging 2,000 creators in
 ![Figure 3: The Airtable form used by admins to initiate automated voucher distribution](https://github.com/raaisurahman/CreatorFlow-Airtable-Ecosystem-Automation-Build/blob/main/discord%20voucher%20post%20form.png)
  
 * The Airtable form used by admins to initiate automated voucher distribution*
+
+![](https://github.com/raaisurahman/CreatorFlow-Airtable-Ecosystem-Automation-Build/blob/main/123456.png)
+![](https://github.com/raaisurahman/CreatorFlow-Airtable-Ecosystem-Automation-Build/blob/main/discord%20voucher%20.png)
+
+* The Make.com scenario showing the webhook trigger routing data to Discord and WhatsApp APIs simultaneously*
  
  
 ### 4.4 Appointment No-Show Prevention (Calendly)
@@ -119,7 +124,6 @@ This multi-channel, multi-touchpoint approach resulted in a drastic reduction in
  
 ![Figure 5: The Make.com scenario showing the webhook trigger routing data to Discord and WhatsApp APIs simultaneously](https://github.com/raaisurahman/CreatorFlow-Airtable-Ecosystem-Automation-Build/blob/main/no%20show%20.png)
  
-* The Make.com scenario showing the webhook trigger routing data to Discord and WhatsApp APIs simultaneously*
  
 ### 4.5 WhatsApp Group "Ice-Breaker" Automation
  
